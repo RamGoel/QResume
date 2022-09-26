@@ -11,6 +11,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 	<meta name="description" content="Online document editor like interface to create and save Resume">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -21,7 +22,7 @@
 	<div class="row">
 
 
-		<div class="col-sm-3 no-print" id="left">
+		<div class="col-sm-3 no-print " id="left">
 
 			<div id="panel">
 
@@ -34,6 +35,22 @@
 				<hr>
 
 				<h3 class="text-center">Template settings</h3>
+				<br>
+				<div class="">
+
+					<div class="upload_image">
+
+						<h4 class=""> Resume Image</h4>
+						<div>
+
+							<i class="fa fa-trash" onclick="handleDeleteImage()"></i>
+							<i class="fa fa-upload" onclick="handleUploadImage()"></i>
+						</div>
+					</div>
+					<input type="file" class="uploadbtn" id="uploadbtn" onchange="handleUpload(this)" accept="jpg/png">
+
+				</div>
+				<hr>
 				<button id="customTemplateBtn" class="btn btn-block btn-default" onclick="template('custom');">Use custom template</button>
 				<h5>
 					Minor
@@ -174,7 +191,7 @@
 
 				<hr>
 
-				<div id="QR"></div>
+				<div id="QR" class="mx-auto"></div>
 
 				
 				
@@ -191,7 +208,7 @@
 				<div class="row" style="margin-bottom:10px;">
 				<div class="col-sm-12">
 					<div style="display:inline-block;" id="image_box">
-						<img src="images/iitg_logo.png" height="80" width="80">
+						<img src="images/iitg_logo.png" id="resume-image" height="80" width="80">
 					</div>
 					<div id="info" style="display:inline-block;">
 						<h2 id="contentName">Student Name</h2>
