@@ -1,5 +1,5 @@
 # QResume
-QResume is a resume builder which can be shared to anyone via a QR Code. This project is made for Tech-A-Thon 3.0
+QResume is a resume builder which can be shared to anyone via a QR Code.
 
 ## Features
 - [x] Resume builder with 2 Custom template options which can be downloaded.
@@ -23,4 +23,4 @@ QResume is a resume builder which can be shared to anyone via a QR Code. This pr
 
 - [ ] Expose your model as an API for prediction
 
-- [ ok] API must be deployed using docker containers.
+- [ ] API must be deployed using docker containers.
