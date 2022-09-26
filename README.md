@@ -1,27 +1,28 @@
-# Resume Builder
+# QResume
+QResume is a resume builder made for Tech-A-Thon 3.0. The key feature of this resume builder is that you can share your resume with anyone via a QR Code.
 
-_Author : Vikas Anand_
+## Features
+- [x] Resume builder with 2 Custom template options which can be downloaded.
 
-## We Made a Free Resume Builder for TNB-Tech-2022 Using Html and Css only. 
-  
-Try it : https://kingcoolvikas.github.io/TNB-Tech-Resume-Builder/ 
+- [x] Authenticated user can generate QR code which can be shared to view their resumes and download
 
-### HOME
-![Front_Page](images/Front.png)
+- [x] Saved resume can be viewed and should be editable
 
-### TEAM
-![Bottom_Page](images/Bottom.png)
+- [x] Delete Saved resumes
 
-### RESUME-PAGE
-![Resume_Page](images/Resume.png)
+- [x] List of Saved resumes.
 
+- [x] Resume templates should include Information about the Person, Objective, Projects,Skills, Location, Regards etc.
 
-**Note** : Click the "VIEW INSTRUCTIONS" button in the editor to read usage instructions.
+## Constraints
+- [x] Git and Github are mandatory for your project.
 
-#### Features
-- Resume content can be edited just like a normal document editor (cut,copy,undo etc).
-- Entire sections can be added, reordered, removed just by cut,copy,pasting method.
-- Section visibility can be toggled while retaining the content.
-- Options provided in the left panel to modify the template and formatting.
-- Sub-points can be added with various bullet styles and adjustable indentation.
+- [x] Dockerize your entire solution and deploy it on any cloud using github action.
+
+- [x] Free cloud like (Vercel, Netlify, Heroku, Railway App)
+
+- [ ] Expose your model as an API for prediction
+
+- [ ] API must be deployed using docker containers.
+
 
