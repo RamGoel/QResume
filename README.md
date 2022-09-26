@@ -23,4 +23,4 @@ QResume is a resume builder which can be shared to anyone via a QR Code. This pr
 
 - [ ] Expose your model as an API for prediction
 
-- [ ] API must be deployed using docker containers.
+- [ ok] API must be deployed using docker containers.
